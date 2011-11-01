@@ -1,11 +1,11 @@
-# target: build - Builds page.
+# target: build - builds github page
 build:
 	mkdir build
 	echo "<html><body>Hi!</body></html>" > build/index.html
-# target: clean - removes src files and build directory
+# target: clean - reverts working directory to latest commit
 clean:
-	rm -rf src/* build/
-# target: help - Display targets.
+	git clean -fdx
+# target: help - display targets
 help:
 	egrep "^# target:" [Mm]akefile
 
