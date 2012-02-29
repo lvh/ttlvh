@@ -3,7 +3,7 @@ ttlvh
 
 `ttlvh`_ is `lvh`_'s `typewriter`_ theme.
 
-.. image:: http://dl.dropbox.com/u/38476311/donkey.png
+.. image:: http://project-logos.lvh.cc/donkey.png
     :align: center
 
 Usage
