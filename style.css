@@ -5,7 +5,8 @@ body {
 code {
   font-family: monospace;
 }
-h1, p:first-child {
+h1,
+p:first-child {
   text-align: center;
 }
 h1,
@@ -19,14 +20,18 @@ section#body > img {
 section#body > h1 {
   margin-top: 48px;
 }
-p, li, code {
+p,
+li,
+code {
   width: 640px;
 }
-p, li {
+p,
+li {
   text-align: justify;
   line-height: 140%;
 }
-a, a:visited {
+a,
+a:visited {
   color: red;
 }
 img#ribbon {
